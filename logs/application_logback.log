@@ -1,0 +1,52 @@
+[03-09-2024 07:51:35] [main] INFO  : Starting SpringBootEcommerceApplication using Java 20.0.1 with PID 245572 (C:\Users\Sindhu\Desktop\spring-boot-ecommerce\target\classes started by Sindhu in C:\Users\Sindhu\Desktop\spring-boot-ecommerce)
+[03-09-2024 07:51:35] [main] INFO  : The following 1 profile is active: "dev"
+[03-09-2024 07:51:37] [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[03-09-2024 07:51:37] [main] INFO  : Finished Spring Data repository scanning in 99 ms. Found 5 JPA repository interfaces.
+[03-09-2024 07:51:37] [main] INFO  : Tomcat initialized with port(s): 8081 (http)
+[03-09-2024 07:51:38] [main] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+[03-09-2024 07:51:38] [main] INFO  : Starting service [Tomcat]
+[03-09-2024 07:51:38] [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.8]
+[03-09-2024 07:51:38] [main] INFO  : Initializing Spring embedded WebApplicationContext
+[03-09-2024 07:51:38] [main] INFO  : Root WebApplicationContext: initialization completed in 2473 ms
+[03-09-2024 07:51:38] [main] INFO  : HikariPool-1 - Starting...
+[03-09-2024 07:51:38] [main] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25214797
+[03-09-2024 07:51:38] [main] INFO  : HikariPool-1 - Start completed.
+[03-09-2024 07:51:38] [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+[03-09-2024 07:51:39] [main] INFO  : HHH000412: Hibernate ORM core version 6.2.2.Final
+[03-09-2024 07:51:39] [main] INFO  : HHH000406: Using bytecode reflection optimizer
+[03-09-2024 07:51:39] [main] INFO  : HHH000021: Bytecode provider name : bytebuddy
+[03-09-2024 07:51:39] [main] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+[03-09-2024 07:51:39] [main] INFO  : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+[03-09-2024 07:51:39] [main] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+[03-09-2024 07:51:39] [main] INFO  : HHH000021: Bytecode provider name : bytebuddy
+[03-09-2024 07:51:40] [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[03-09-2024 07:51:40] [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[03-09-2024 07:51:41] [main] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[03-09-2024 07:51:41] [main] INFO  : Starting ProtocolHandler ["http-nio-8081"]
+[03-09-2024 07:51:41] [main] INFO  : Tomcat started on port(s): 8081 (http) with context path ''
+[03-09-2024 07:51:42] [main] INFO  : Tomcat initialized with port(s): 9000 (http)
+[03-09-2024 07:51:42] [main] INFO  : Initializing ProtocolHandler ["http-nio-9000"]
+[03-09-2024 07:51:42] [main] INFO  : Starting service [Tomcat]
+[03-09-2024 07:51:42] [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.8]
+[03-09-2024 07:51:42] [main] INFO  : Initializing Spring embedded WebApplicationContext
+[03-09-2024 07:51:42] [main] INFO  : Root WebApplicationContext: initialization completed in 84 ms
+[03-09-2024 07:51:42] [main] INFO  : Exposing 15 endpoint(s) beneath base path '/manage'
+[03-09-2024 07:51:42] [main] INFO  : Starting ProtocolHandler ["http-nio-9000"]
+[03-09-2024 07:51:42] [main] INFO  : Tomcat started on port(s): 9000 (http) with context path ''
+[03-09-2024 07:51:42] [main] INFO  : Started SpringBootEcommerceApplication in 7.323 seconds (process running for 8.673)
+[03-09-2024 07:51:42] [RMI TCP Connection(3)-127.0.0.1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[03-09-2024 07:51:42] [RMI TCP Connection(3)-127.0.0.1] INFO  : Initializing Servlet 'dispatcherServlet'
+[03-09-2024 07:51:42] [RMI TCP Connection(3)-127.0.0.1] INFO  : Completed initialization in 1 ms
+[03-09-2024 07:52:06] [RMI TCP Connection(5)-127.0.0.1] INFO  : Application shutdown requested.
+[03-09-2024 07:52:06] [RMI TCP Connection(5)-127.0.0.1] INFO  : Pausing ProtocolHandler ["http-nio-9000"]
+[03-09-2024 07:52:06] [RMI TCP Connection(5)-127.0.0.1] INFO  : Stopping service [Tomcat]
+[03-09-2024 07:52:06] [RMI TCP Connection(5)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-9000"]
+[03-09-2024 07:52:06] [RMI TCP Connection(5)-127.0.0.1] INFO  : Destroying ProtocolHandler ["http-nio-9000"]
+[03-09-2024 07:52:06] [RMI TCP Connection(5)-127.0.0.1] INFO  : Pausing ProtocolHandler ["http-nio-8081"]
+[03-09-2024 07:52:06] [RMI TCP Connection(5)-127.0.0.1] INFO  : Stopping service [Tomcat]
+[03-09-2024 07:52:06] [RMI TCP Connection(5)-127.0.0.1] INFO  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+[03-09-2024 07:52:06] [RMI TCP Connection(5)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-8081"]
+[03-09-2024 07:52:06] [RMI TCP Connection(5)-127.0.0.1] INFO  : Destroying ProtocolHandler ["http-nio-8081"]
+[03-09-2024 07:52:06] [RMI TCP Connection(5)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+[03-09-2024 07:52:06] [RMI TCP Connection(5)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+[03-09-2024 07:52:06] [RMI TCP Connection(5)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.
